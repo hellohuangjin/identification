@@ -20,7 +20,7 @@ class Detector{
 
 private:
     TessBaseAPI *api;
-    string recoginze(Mat image, bool isNum = false);
+    string recoginze(Mat image);
 public:
     void init(const char* datapath);
     string getIdentification(Mat src);
